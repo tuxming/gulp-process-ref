@@ -14,7 +14,7 @@ Then, add it to your `gulpfile.js`:
 
 ### Gulpfile
 ```javascript
-var process = require('gulp-process-ref');
+var htmlref = require('gulp-process-ref');
 
 var jsprocess = fuunction(stream, dist){
 stream.pipe(concat(name))
@@ -38,8 +38,8 @@ gulp.task('templates', function(){
 ### html
 ```html
 	<span class="buildjs" name="main.js" dist="/scripts/" />
-	<script type="text/script" class="concat" base="../.." src="../../script/main.js"></script>
-	<script type="text/script" class="concat" base="../.." src="../../script/config.js"></script>
+	<script type="text/javascript" class="concat" base="../.." src="../../script/main.js"></script>
+	<script type="text/javascript" class="concat" base="../.." src="../../script/config.js"></script>
 	
 	<span class="buildcss" name="main.css" dist="/styles/" />
 	<link type="text/css" class="concat" base="../.." href="../../styles/main.css"></link>
