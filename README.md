@@ -1,4 +1,4 @@
-# gulp-process-ref
+# gulp-process-ref [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
 
 > process css, js by html
 
@@ -29,7 +29,7 @@ stream.pipe(load.concat(cname))
 	.pipe(gulp.dest("./dist"+cdist));
 }
  
-gulp.task('templates', function(){
+gulp.task('html', function(){
 	gulp.src("/*.html")
 		.pipe(htmlref(jsprocess, cssprocss));
 });
