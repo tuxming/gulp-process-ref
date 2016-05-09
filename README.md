@@ -1,4 +1,4 @@
-# gulp-process-ref [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
+# gulp-process-ref 
 
 > process css, js by html
 
